@@ -1,0 +1,46 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+body {
+    background-image: url(pexels-daniel-jurin-1835718.jpg);
+}
+
+.wrapper {
+    margin: 0 auto;
+   
+}
+
+ul>li:nth-child(odd){
+    font-weight:bold;
+}​
+
+head, header, h2, section, h3, ul, footer {
+    color: #333;
+}
+
+img {
+    width: 600px;
+    filter: brightness(120%);
+    filter: contrast(169%);
+}
+
+.responsive {
+    max-width:100%;
+    height: auto;
+}
+
+div.wrapper {
+    width: 80%;
+    margin: 0 auto; 
+    background-color: rgb(222, 118, 170);
+    width: 80vw;
+    border: #333;
+  }
+  
+  div.wrapper header {
+    width: 90%;
+    margin: 0 auto; 
+    background-color: #56a862; 
+  
